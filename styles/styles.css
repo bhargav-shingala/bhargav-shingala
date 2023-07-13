@@ -222,6 +222,21 @@ section {
   line-height: 2rem;
 }
 
+.about-more {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.about-more-text {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-grey-2);
+  margin-top: 10px;
+}
+
+/* .about-more-text-icon {
+  color: ;
+} */
 /*About*/
 .about-container {
   display: grid;
@@ -241,6 +256,14 @@ section {
   border-radius: 5px;
   transition: all 0.4s ease-in-out;
   box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  background: var(--color-grey-2);;
+
+  margin-top: 30px;
 }
 
 .heading a:hover {
