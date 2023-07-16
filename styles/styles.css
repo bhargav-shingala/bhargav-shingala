@@ -79,6 +79,11 @@ section {
   transform: translateY(0) scaleY(1);
 }
 
+.about-me {
+  animation: appear 2.5s ease-in-out !important;
+  transform: translateY(0) scaleY(1);
+}
+
 @keyframes appear {
   0% {
     transform: translateY(-100%) scaleY(0);
